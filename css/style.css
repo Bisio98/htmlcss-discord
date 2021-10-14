@@ -163,19 +163,17 @@ body{
 }
 
 .entry,.finish{
-    height: 80px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
 }
 
-.entry{
-    background-image: url(../img/wave.svg);
+.entry img{
+    position: relative;
+    top: 10px;
 }
 
-.finish{
-    background-image: url(../img/wave2.svg);
+.finish img{
+    position: relative;
+    bottom: 5px;
 }
 
 .second,.fourth{
